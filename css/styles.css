@@ -31,7 +31,8 @@ main {
     padding: 2em;
 }
 
-.gallery img {
+.gallery img,
+.menu img {
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -53,14 +54,35 @@ main {
     margin: 0.5em 0;
 }
 
+.price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.whatsapp-link:hover {
+    background-color: #1DA851;
+}
+
 footer {
     background-color: #343a40;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+.chat-box {
+    margin-top: 1em;
 }
 
 .lightbox {
@@ -82,12 +104,3 @@ footer {
     max-width: 700px;
 }
 
-.lightbox-close {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    color: #fff;
-    font-size: 35px;
-    font-weight: bold;
-    cursor: pointer;
-}
